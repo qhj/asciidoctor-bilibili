@@ -1,0 +1,14 @@
+= Asciidoctor Bilibili
+
+Asciidoctor 的扩展，可以将 B 站视频嵌入到 AsciiDoc 中
+
+== 安装
+
+[source, bash]
+gem install asciidoctor-bilibili
+
+== 使用
+
+[source, asciidoc]
+bilibili::BV号放在冒号和方括号中间[]
+
