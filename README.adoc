@@ -9,6 +9,22 @@ gem install asciidoctor-bilibili
 
 == 使用
 
+=== 语法
+
 [source, asciidoc]
 bilibili::BV号放在冒号和方括号中间[]
+
+=== Asciidoctor
+
+[source, bash]
+asciidoctor -r asciidoctor-bilibili /path/to/test.adoc
+
+==== Hugo
+
+.config.toml
+[source, toml]
+----
+[markup.asciidocExt]
+extensions = ['asciidoctor-bilibili', '其它扩展']
+----
 
